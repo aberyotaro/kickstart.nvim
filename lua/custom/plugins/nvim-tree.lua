@@ -4,7 +4,7 @@
 -- netrwの無効化
 vim.api.nvim_set_var('loaded_netrw', 1)
 vim.api.nvim_set_var('loaded_netrwPlugin', 1)
-vim.keymap.set('n', '<leader>ex', vim.cmd.NvimTreeToggle)
+vim.keymap.set('n', '<leader>l', vim.cmd.NvimTreeToggle)
 
 return {
   'nvim-tree/nvim-tree.lua',
